@@ -1,32 +1,36 @@
-**Project Title:** ISBN_Searcher
+# **Project Title:** ISBN_Searcher
 
-**Description:**
+## **Description:**
 
 This Python project provides an MVP (Minimum Viable Product) prototype for an API that retrieves book information (title and number of pages) based on the ISBN code. It's designed to be used by API users to access book details efficiently.
 
-**User Story:**
+## **User Story:**
 
 As an API user, I want to be able to request book information such as title and number of pages based on the ISBN code.
+-Is the langauge of the books important?
+-Does the genre of the book matter?
+-Would it be helpful if the API could also handle requests for additional parameters in the future?
 
-**Installation:**
+## **Installation:**
 
-1. **Prerequisites:**
-   - Python 3.12.2 ([https://www.python.org/downloads/](https://www.python.org/downloads/))
-     #- Necessary dependencies (specified in `pyproject.toml`)
+## 1. **Prerequisites:**
 
-**Usage:**
+- Python 3.12.2 ([https://www.python.org/downloads/](https://www.python.org/downloads/))
+  #- Necessary dependencies (specified in `pyproject.toml`)
+
+## **Usage:**
 
 1. **Run the API server:**
 
 2. **Make an API request:**
 
-**Development:**
+## **Development:**
 
-**Testing:**
+## **Testing:**
 
-**License:**
+### **License:**
 
-**Contributing:**
+### **Contributing:**
 
 ```
 For any further suggestions or contributions, please follow these instructions:
@@ -37,11 +41,4 @@ For any further suggestions or contributions, please follow these instructions:
 -Open a pull request to submit your changes for review. (Please use appropriate titles and detailed descriptions)
 ```
 
-**Additional Notes:**
-
-- Consider error handling for invalid ISBN codes or API errors.
-- Implement proper logging for debugging and monitoring purposes.
-- You may want to add documentation for specific API endpoints and response formats.
-- Explore security measures if the API is exposed to external users.
-
-**Example Code Snippet:**
+### **Example Code Snippet:**
