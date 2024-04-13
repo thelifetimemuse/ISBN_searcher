@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ISBN-searcher"
+version = "0.1.0"
+description = "An API that requests book information such as the title and number of pages based on the ISBN code."
+authors = ["joint collaboration: thelifetimemuse,Christian Espinoza "]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.2"
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
