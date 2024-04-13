@@ -7,9 +7,12 @@ This Python project provides an MVP (Minimum Viable Product) prototype for an AP
 ## **User Story:**
 
 As an API user, I want to be able to request book information such as title and number of pages based on the ISBN code.
+
+```
 -Is the langauge of the books important?
 -Does the genre of the book matter?
 -Would it be helpful if the API could also handle requests for additional parameters in the future?
+```
 
 ## **Installation:**
 
