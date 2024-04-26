@@ -23,9 +23,16 @@ As an API user, I want to be able to request book information such as title and 
 
 ## **Usage:**
 
-1. **Run the API server:**
+1. **Run the API server on dev mode**
+
+```sh
+poetry run uvicorn main:app --reload
+```
 
 2. **Make an API request:**
+```sh
+curl http://127.0.0.1:8000/api/v1/books\?isbn\=9780007420117 
+```
 
 ## **Development:**
 
