@@ -31,7 +31,12 @@ poetry run uvicorn main:app --reload
 
 2. **Make an API request:**
 ```sh
-curl http://127.0.0.1:8000/api/v1/books\?isbn\=9780007420117 
+curl "http://127.0.0.1:8000/api/v1/books?isbn=9780007420117"
+```
+
+3. **Make an API request in the browser:**
+```sh
+http://127.0.0.1:8000/api/v1/books?isbn=9780007420117 
 ```
 
 ## **Development:**
